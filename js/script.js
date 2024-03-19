@@ -1,5 +1,11 @@
 window.addEventListener('DOMContentLoaded', () =>{
-
+  const loader = document.querySelector('.loader')
+  setTimeout(() =>{
+      loader.style.opacity = 0.5
+  }, 1900)
+  setTimeout(() =>{
+      loader.style.display = 'none'
+  }, 2000)
 
 const navigation = document.querySelector(".navigation");
 const navA = navigation.querySelectorAll(" a");
@@ -120,13 +126,18 @@ openModalBtn.addEventListener("click", handleShowModal);
 closeModal.addEventListener("click", handleHideModal);
 
 function handleShowModal() {
-  modal.classList.add("show");
+  modal.classList.add("show", "fade");
   modal.classList.remove("hide");
+  document.body.style.overflow = 'hidden'
+
+  
 }
 
 function handleHideModal() {
   modal.classList.add("hide");
-  modal.classList.remove("show");
+  modal.classList.remove("show", "fade");
+  document.body.style.overflow = ''
+
 }
 
 modal.addEventListener('click', (e)=>{

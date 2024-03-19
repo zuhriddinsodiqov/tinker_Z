@@ -53,7 +53,7 @@
   }
 
   @mixin btn (){
-    padding: 7px 15px;
+    padding: 8px 2rem;
     background-color:  #2fb5c4;
     color: white;
     border: 0;
@@ -73,7 +73,7 @@
   }
 
   ::-webkit-scrollbar {
-    width: 2px;
+    width: 1px;
     height: 5px;
   }
   ::-webkit-scrollbar-thumb {

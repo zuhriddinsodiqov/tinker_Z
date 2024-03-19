@@ -30,7 +30,7 @@ img {
 }
 
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 1px;
   height: 5px;
 }
 
@@ -49,8 +49,9 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 9vh;
+  height: 10vh;
   z-index: 9999;
+  margin-bottom: 1rem;
   overflow: hidden;
 }
 .navigation i {
@@ -74,9 +75,10 @@ img {
   color: #fff;
   font-size: 1.3rem;
   letter-spacing: 1px;
+  margin-bottom: 0.2rem;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .header {
@@ -99,21 +101,21 @@ img {
 .header .banner h1 {
   font-size: 3rem;
   color: #fff;
-  font-family: "Ojuju", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
 .header .banner h1 span:first-of-type {
   color: rgb(160, 146, 58);
-  font-family: "Ojuju", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
 .header .banner h1 span:last-of-type {
   color: rgb(58, 145, 160);
-  font-family: "Ojuju", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -125,7 +127,7 @@ img {
   margin-bottom: 1rem;
 }
 .header .banner button {
-  padding: 7px 15px;
+  padding: 8px 2rem;
   background-color: #2fb5c4;
   color: white;
   border: 0;
@@ -174,7 +176,7 @@ img {
   font-weight: 400;
 }
 .about .about__content .item button {
-  padding: 7px 15px;
+  padding: 8px 2rem;
   background-color: #2fb5c4;
   color: white;
   border: 0;
@@ -338,7 +340,7 @@ img {
   margin-bottom: 1rem;
 }
 .contact .title button {
-  padding: 7px 15px;
+  padding: 8px 2rem;
   background-color: #2fb5c4;
   color: white;
   border: 0;

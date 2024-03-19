@@ -1,12 +1,13 @@
 @import "./_global";
-
 .navigation {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 9vh;
+  // padding: 15px;
+  height: 10vh;
   z-index: 9999;
+  margin-bottom: 1rem;
   overflow: hidden;
   i{
     font-size: 2rem;
@@ -18,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // margin-bottom: 1rem;
     .navLogo {
       a {
         font-size: 2rem;
@@ -31,7 +33,8 @@
         color: #fff;
         font-size: 1.3rem;
         letter-spacing: 1px;
-        @include robotoItalic();
+        margin-bottom: 0.2rem;
+        @include robotoBold();
       }
     }
   }
@@ -56,15 +59,15 @@
     h1 {
       font-size: 3rem;
       color: #fff;
-      @include ojuju();
+      @include monster();
       span {
         &:first-of-type {
           color: rgb(160, 146, 58);
-          @include ojuju();
+          @include monster();
         }
         &:last-of-type {
           color: rgb(58, 145, 160);
-          @include ojuju();
+          @include monster();
         }
       }
     }
