@@ -1,11 +1,5 @@
 window.addEventListener('DOMContentLoaded', () =>{
-  const loader = document.querySelector('.loader')
-  setTimeout(() =>{
-      loader.style.opacity = 0.5
-  }, 1900)
-  setTimeout(() =>{
-      loader.style.display = 'none'
-  }, 2000)
+
 
 const navigation = document.querySelector(".navigation");
 const navA = navigation.querySelectorAll(" a");
@@ -34,7 +28,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// gallery
+// gallery start
 
 const galleryAllTabs = document.querySelector(".gallery__tabs"),
   galleryTab = document.querySelectorAll(".gallery__tab"),
@@ -69,8 +63,9 @@ galleryAllTabs.addEventListener("click", (e) => {
     });
   }
 });
+// gallery end
 
-// swiper
+// swiper start
 
 const swiper = new Swiper(".swiper", {
   loop: true,
@@ -79,8 +74,9 @@ const swiper = new Swiper(".swiper", {
     disableOnInteraction: false,
   },
 });
+//swiper end
 
-// blog
+// blog start
 
 const blogAllTabs = document.querySelector(".blog__tabs"),
   blogTab = document.querySelectorAll(".blog__tab"),
@@ -115,8 +111,10 @@ blogAllTabs.addEventListener("click", (e) => {
     });
   }
 });
+// blod end
 
-// modal
+
+// modal start
 
 const openModalBtn = document.querySelector(".opan__modal"),
   modal = document.querySelector(".contact__modal"),
