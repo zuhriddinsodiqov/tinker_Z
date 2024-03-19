@@ -50,7 +50,7 @@ function showGalleryContent(i) {
 }
 
 hideGalleryContent();
-showGalleryContent(1);
+showGalleryContent(3);
 
 galleryAllTabs.addEventListener("click", (e) => {
   const target = e.target;
@@ -98,7 +98,7 @@ function showBlogContent(i) {
   blogTab[i].classList.add("active");
 }
 hideBlogContent();
-showBlogContent(3);
+showBlogContent(1);
 
 blogAllTabs.addEventListener("click", (e) => {
   const target = e.target;

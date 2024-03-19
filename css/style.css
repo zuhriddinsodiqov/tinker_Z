@@ -214,9 +214,8 @@ img {
   color: #fff;
   font-size: 1.3rem;
   margin-top: 0.2rem;
-  font-family: "Ojuju", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 2px;
@@ -276,7 +275,7 @@ img {
   margin-bottom: 1rem;
   width: 100%;
   height: 3px;
-  background: #86551c;
+  background: linear-gradient(to left, red, blue, green, grey);
 }
 .blog .blog__tabs p {
   text-align: justify;
@@ -289,6 +288,10 @@ img {
   margin-top: 0.8rem;
   padding: 10px 10px;
   border-radius: 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .blog .blog__tabs .active {
   background-color: #86551c;
